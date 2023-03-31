@@ -32,7 +32,7 @@ function App() {
       <h1>газрын зураг</h1>
       <div>
         <button onClick={getAllBranch}>Show all branches</button>
-        <button onClick={getNearBranch}>Show nearest branch</button>
+        <button onClick={getNearBranch}>Show nearest branches</button>
       </div>
       <div className={css.map}>
         <MapContainer
